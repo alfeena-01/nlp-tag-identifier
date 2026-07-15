@@ -1,5 +1,7 @@
 📝 Tag Identifier Project
+
 📌 Overview
+
 This project performs text mining and named entity recognition (NER) on Wikipedia articles. It scrapes content, cleans and tokenizes text, visualizes word frequencies and word clouds, and extracts named entities such as organizations, people, and locations.
 
 ⚙️ Features
