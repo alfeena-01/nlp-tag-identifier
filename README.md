@@ -5,6 +5,7 @@
 This project performs text mining and named entity recognition (NER) on Wikipedia articles. It scrapes content, cleans and tokenizes text, visualizes word frequencies and word clouds, and extracts named entities such as organizations, people, and locations.
 
 ⚙️ Features
+
 •Web Scraping: Collects text from Wikipedia using BeautifulSoup.
 
 •Preprocessing: Tokenizes, removes stopwords/punctuation, and lemmatizes words with NLTK.
@@ -34,6 +35,7 @@ nlp-tag-project/
 └── README.md
 
 🚀 How to Run
+
 1. Install dependencies:
  pip install beautifulsoup4 html5lib nltk matplotlib wordcloud pandas
 
@@ -52,6 +54,7 @@ nlp-tag-project/
 •Save results to CSV
 
 ✅ Outputs
+
 •Graph: Word frequency distribution.
 
 •Image: Word cloud visualization.
@@ -63,6 +66,7 @@ nlp-tag-project/
   entities.csv → extracted named entities.
 
 ### Known Limitations
+
 - NLTK's default Named Entity Recognition (NER) may not detect entities in long, complex Wikipedia articles.
 - The pipeline runs successfully, but `entities.csv` may be empty depending on the text.
 - Future improvement: integrate spaCy for more accurate NER results.
